@@ -1,0 +1,657 @@
+
+<html>
+  <meta charset="UTF-8">
+<title>Wikipedia</title>
+<link rel="stylesheet" href="style.css">
+<meta name="description" content="Gary">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#white">
+    <meta property="og:url" content="">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Wikipedia">
+    <meta property="og:description" content="Gary">
+    <meta property="og:site_name" content="アイスステーションz">
+    <meta property="og:image" content="https://dbmg7ydm7zqxlv.archive.md/h1lqU/b9fdeeeee0449bde9038f8f02bc208d4c81e38f2.png">
+    <meta name="google-site-verification" content="urN79yly2LDCZTv3UIHd76c0IEdK16Pdjqmm2SB7lqM" />
+<link rel="icon" type="image/png" href="">
+<style>
+
+  header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  gap: 15px; 
+  font-family: sans-serif;
+}
+
+header input[type="search"] {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 250px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+  body {
+    margin-top: 60px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+ 
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+</style>
+<body>
+<header style="display: flex; align-items: center;">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAmAQMAAACIz5tjAAAABlBMVEUgISL///9U7/vqAAAAGUlEQVQY02P4DwIHGKhEPWBgR6LorZIiCgBnD80/5bxYFgAAAABJRU5ErkJggg==" width="50" height="50" alt="Logo 1">
+  <img src="https://dbmg7ydm7zqxlv.archive.md/h1lqU/b9fdeeeee0449bde9038f8f02bc208d4c81e38f2.png" width="50" height="50" alt="Logo 2">
+  <a href="https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8">
+  <img src="https://d9kidwjnhhnzrm.archive.is/Yq8EN/e2d9dbf2af01ce29bfaa8247e3a71c806368ae43.png" width="150" height="50" alt="Logo 2">
+</a>
+<form id="searchForm" style="display: flex; align-items: center; gap: 5px; margin-right: 20px;">
+    <input type="search" id="searchInput" name="search" placeholder="🔍Wikipedia内を検索" aria-label="Wikipedia内を検索" style="padding: 5px; border: 1px solid #ccc; border-radius: 4px; width: 500px;">
+    <button type="submit" style="padding: 5px 10px; border: 1px solid #ccc; border-radius: 4px; background-color: #f0f0f0; cursor: pointer;">検索</button>
+</form>
+
+<script>
+document.getElementById('searchForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    var query = document.getElementById('searchInput').value;
+    if (query) {
+        var url = 'https://ja.wikipedia.org/wiki/Special:Search?search=' + encodeURIComponent(query);
+        window.location.href = url;
+    }
+});
+</script>
+
+</form>
+
+  </form> 
+
+  <span style="display: inline-block; width: 20px;"></span>
+
+  <a href="https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=ja.wikipedia.org&uselang=ja" target="_blank" style="color: black; text-decoration: none; font-size: 12px; margin-right: 20px;">寄付</a>
+  <a href="https://auth.wikimedia.org/jawiki/wiki/%E7%89%B9%E5%88%A5:%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E4%BD%9C%E6%88%90?useformat=desktop&usesul3=1&returntoquery=%3F&centralauthLoginToken=f32ab0ec7aaf6cdde9a436047949dc16" target="_blank" style="color: black; text-decoration: none; font-size: 12px; margin-right: 20px;">アカウント作成</a>
+  <a href="https://auth.wikimedia.org/jawiki/wiki/%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3?useformat=desktop&usesul3=1&returnto=Main_Page&centralauthLoginToken=2613951895acc71d3eaa34561c1767c2" target="_blank" style="color: black; text-decoration: none; font-size: 12px;">ログイン</a>
+  <a href="https://ja.wikipedia.org/wiki/Wikipedia:Info-ja" style="color: black; text-decoration: none; font-size: 12px;">お問い合わせ</a>
+</header>
+
+<body>
+  <div>
+    <!---->
+  </div>
+</body>
+
+
+
+
+    <img src=""transform: scale(4.5); transform-origin: left; position:absolute; margin-left: 10%; width:10%; top:50px; font-size: 18px;">
+    <table  style="width:35%; text-align: center; border:1px solid black; position: absolute; margin-left:57.3%; top:240px; margin-bottom:200px; transform: scale(0.8); transform-origin: top left;">
+        <tr>
+            <td colspan="2" style="background-color:white;">
+                <span style="font-size: 30px; font-family: sans-serif; font-weight: bold;">ゲイリー</span><br><span style="font-size: 40px; font-weight: bold;">Gary</span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <img width="100%" height="320px;" src="https://dfism93xf7v0zd.archive.md/CPH4t/c61e17a1e51a8567ee161d4e68df399b0ef3bae1.png" style="border-top: 1px solid black; padding-top:10px;">
+                <br>
+                <img style="border-top: 1px solid black; padding-top:10px;" width="100%" height="400px;" src="https://dfism93xf7v0zd.archive.md/CPH4t/f97c8db6baf9601a655a881b20993d066d4f9960.png">
+                <br>
+                <img style="border-top: 1px solid black; padding-top:10px;" width="100%" height="400px;" src="https://dfism93xf7v0zd.archive.md/CPH4t/892798d497f6a4d86f3b22a668128fb8c498d0cd.jpg">
+                <br>
+                <img style="border-top: 1px solid black; padding-top:10px;" width="100%" height="400px;" src="https://d3bi28yr3x3fh2.archive.md/EolS7/e8394ff7bbbed6560dfd43bda488296181bf8504.png">
+                <br>
+                <img style="border-top: 1px solid black; padding-top:10px;" width="100%" height="400px;" src="https://dfism93xf7v0zd.archive.md/CPH4t/b7301dc2e4a52406a6111f0e0a132f8b80e9a666.gif">
+                <br>
+                <img style="border-top: 1px solid black; padding-top:10px;" width="100%" height="400px;" src="https://dfism93xf7v0zd.archive.md/CPH4t/18a1ef0d6ff73d01263654dc94602cbc84b5f852.gif">
+                <br>
+                <br>
+                <span style="font-size: 12px;"><a href="https://archive.md/EolS7">🙿　　　　　Gary写真集　　　　　🙾</a></span>
+            </td
+        </tr>
+      
+    </table>
+
+    <div style="position:fixed; margin-left: 10%; width:10%; top:120px; font-size: 18px;">
+        目次<br>
+        <div style="background-color: rgb(158, 158, 158); width:100%; height:1px;"></div>
+        <li><a href="#geo">概要</a></li>
+        <li><a href="#history">説明</a></li>
+        <li><a href="#government">基礎データ</a></li>
+        <li><a href="#economy">趣味一覧表</a></li>
+        <li><a href="#transportation">被害者一覧表</a></li>
+        <li><a href="#sightseeing">考察</a></li>
+        <li><a href="#footnote">脚注</a></li>
+        <li><a href="#Relateditems">関連項目</a></li>
+    </div>
+
+    <div style="top:120px; position:absolute; left:25%; margin-top:10px; max-width:30%;">
+    <span style="font-size:28px;">Gary</span><span style="position: relative; left:65%; font-size:32px;" id="text1" onmouseover="change1()" onmouseout="change1_1()">アイスステーションz</span><br>
+    <div style="background-color: rgb(158, 158, 158); width:1400px; height:1px;"></div>
+    <span style="font-size: 12px;">出典: フリー百科事典『ウィキペディア（Wikipedia）』</span>
+    <br><br>
+    <strong>Gary</strong>（がりぃー）は、3DSゲーム<strong>アイスステーションz</strong>のプレイヤーである。<br>
+    かつてGaryは3DSの改造を行い、チートを悪用して3DSゲーム内で極めて悪質な迷惑行為を繰り返していた。<br>
+   <br><br>
+    <span style="font-size:28px;" id="geo">概要</span><br>
+    <div style="background-color: rgb(158, 158, 158); width:60%; height:1px;"></div><br>
+
+     Garyは<strong>晒し動画の投稿やプライバシーを侵害した音MAD作成が趣味</strong>のキチガイである。<br>
+     Garyは<strong>アイスステーションz害悪プレーヤーtxtの作成者でもあり、他者を悪質な形で世に晒し名誉を毀損すること</strong>に快楽を得ている。<br>
+     Garyは<strong>VPNを利用した匿名化の悪用を行い、ネットストーキング行為や名誉毀損、極めて悪質な爆破予告や殺害予告</strong>を行っている。<br>
+     ひろたけチャンネルで公開されている<a href="https://www.youtube.com/shorts/98DtgR0zw6U">Garyの顔写真</a>は偽物である。<strong>このWikipediaに公開されてある顔写真がGaryの本物の顔写真</strong>である。<br>
+     Garyは重度の自閉症を持っているため、『サイコパス・ソシオパス』や『イカれてる・狂ってる』と言われる事に対して優越感を覚えているが実際にはその言葉が馬鹿にする意味を持つ事に気づいていない。<br>
+     Garyは親族やネット上に居るユーザー達から毛嫌いされており、常に孤独感を感じている。<br><br>
+     ニコニコ動画にて<a href="https://www.nicovideo.jp/tag/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3Z">アイスステーションzとタグ検索をする</a>と、晒し音MADや晒し動画を様々な人が投稿しているように見えるが、<strong>中身は全て同一人物（Gary）</strong>である。<br>
+   
+    <br>
+    <span style="font-size:28px;" id="history">説明</span><br>
+    <div style="background-color: rgb(158, 158, 158); width:60%; height:1px;"></div><br>
+    
+    
+    Garyは、Wazap!で女性を名乗り『<a href="https://archive.md/0JEEX">Gary様最高ー！！いやーーーん、抱いてほしーーーー！！</a>』と<strong>自画自賛</strong>をしているが、実際誰もこのような化物に抱かれたいとは思っていない。<br>
+    <br>
+    3DSのゲーム、アイスステーションzのインターネット部屋でチートを悪用し幾度となく<strong>部屋埋め</strong>や<strong>部屋落とし</strong>を行った張本人である。<br>
+    <br>
+    Garyは、アイスステーションzというゲームで気に入らない相手に対し、<strong>私利私欲で名誉毀損を目的とした悪質なtxtfileを作成しバラ撒いていた</strong>過去がある。<br>
+    りょうがさんとGaryの間には長年にわたる因縁があり、両者の関係は良好とは言えない。これは主に、Garyによる嫌がらせ行為などの問題行動が原因とされている。<br>
+    りょうがさんに敗北した際には、Garyは『開示請求するわ〜』と虚言を吐き、逃走を図っていた。<br>
+    Garyは過去に、偽造した開示請求書を用いて、りょうがさんに対して脅迫行為を行っていた。<br>
+    過去に、Garyはりょうがさんに対して『<a href="https://garyhimesaka.github.io/kaiji/">訴えていこうと思いまーす</a>』と話していたが、<strong>結果的にりょうがさんのポストに開示請求の書類は届かなかった。</strong><br>
+    余談だが、ティアルナさんが晒された際には、実際にティアルナさんは警察に被害届を提出していた。Garyの情報を晒しても警察や開示請求は届かないが、ティアルナさんを晒すと警察が家に来る可能性が非常に高いためティアルナさんを晒すことは回避すべきである。<br>
+    Garyは2022年まで、カヌレさんに対し執着と嫌がらせを行っていた。<br>
+    Garyは<strong>カヌレさんの住居を特定して、カヌレさんに嫌がらせ</strong>を行った過去がある。<br>
+    Garyは、ちむさんやblankさんに執着した事もあり、『カヌレと仲の良いメンヘラだから』という理由でちむさんやblankさんを叩いていた。<br>
+    Garyは、アイスステーションzのインターネット部屋でチートを悪用し部屋埋めを行う際には『Garyイケメンすぎ』と<strong>自画自賛</strong>を行ったり、<strong>他者の名誉を落とすような内容</strong>や<strong>プライバシーを侵害した個人情報の晒し</strong>を行っていた。<br>
+    Garyは他者を煽る際に、『ブスをbs』『カスをks』このような隠語を使用している。<br>
+    Garyは自身の顔写真を他者に送り、『イケメン』と言わせて承認欲求を得ている。<br>
+    だが実際には誰もGaryを『イケメン』と思っておらず、Garyの圧力によって言わされているだけである。<br>
+    Garyは自身をイケメンだと本気で<strong>勘違い</strong>をしており、他者を『ブス』と罵るが、Gary自身『ブス』と言われると態度を豹変し執着や攻撃を執拗に行っていた。<br>
+    過去に、シいさんのいる場でGaryがティアルナさんを『ブス』とバカにした際に、シいさんがGaryに対して『あなたも人のこと言えないでしょ』と言った途端にシいさんに対しての執拗な攻撃が行われた。<br>
+    Garyは頭がおかしいのか、実家でペニスを露出し、包丁を持って徘徊している。<br>
+    Garyは風呂に入っていないため、体臭が物凄く臭く常に体から垢が溢れ落ちている。<br>
+    Garyは他者を煽る際に<strong>"風呂"</strong>や<strong>"体臭"</strong>といった言葉を併用しており、これはGary自身の自己投影によるものである。<br>
+    Garyは歯磨きをしていないため、<strong>歯には歯垢や歯石、舌には大量の舌苔が付着</strong>しており、非常に汚い。<br>
+    過去にGaryは、シいさんやティアルナさんに対して<strong>"舌苔煽り"</strong>を行っていた。<br>
+    おそらくそれもGary自身の<strong>自己投影</strong>によるものであろう。<br>
+    Garyは、カニそばさんに対してスカトロ動画を送りつけ嫌がらせを行っていた。<br>
+    Garyは、2022/08/18 13:07:23まで作成したアイスステーションz害悪txtファイルをuploader.jpというサイトにて、水銀＆桃水アップローダーに晒し回っていた。<br>
+    Garyはティアルナさんが席を外している間に、ティアルナさんが運営していたMinecraftのワールドを荒らし、memoryさんやりょうがさんに<strong>罪を擦り付けて</strong>いた。<br>
+    当初、Garyとシャド君は良好な関係を築いていたが時間の経過とともに両者の関係は徐々に悪化し、結果的にGaryによってアイスステーション害悪プレイヤーtxtに名誉毀損をされ、シャド君が被害を受けていた。<br>
+    MIRUさんの顔写真を利用したプライバシー侵害動画をニコニコ上に投稿し、犯人をティアルナさんに<strong>擦り付けて</strong>いた。<br>
+    Garyは<strong>ニコニコ動画やその他の投稿サイトではプライバシーを侵害した名誉毀損を目的とする悪質な音MADや晒し系動画</strong>を投稿している。<br>
+    <br>
+    過去に、Garyに対してティアルナさんを晒した動画を削除する様にティアルナさんがGaryにお願いをしていたが、Garyはそれを嘲笑い、<strong>『開示請求したほうが良いんじゃないの？』</strong>と馬鹿にしていた。<br>
+    Discordでは、ゲーム仲間や通話相手(りょうがさん、ware255さん、カニそばさん、ティアルナさんなど)にセクハラを何度も行い嫌がられていた。頭がおかしいのかセクハラに対して嫌がっている様子を見て楽しんでいた。<br>
+    Garyは過去に、ニコニコ動画に<a href="https://www.nicovideo.jp/watch/sm41863540">『私に天使が舞い降りた』というアニメの音MAD</a>を投していた。<br>
+    GaryはDiscordの通話中に突然カメラをONにし、<strong><a href="https://d2vis6q1f0rwv9.archive.is/GJUGe/15591de024f4479a5b10d23af8ad6888434bbf53.gif">アナニーやオナニーなどの奇行を行う</a>習性</strong>がある。<br>
+    ティアルナさんは脅迫を行うGaryの言いなりになり、<strong>奴隷のような扱い</strong>をされていた。<br>
+    過去に、Garyは<strong>障害者手帳</strong>を<strong>割引券</strong>のように扱い、<strong>「持っていれば警察に検挙されない」</strong>と誤った主張をしていた。<br>
+    Garyは2023年以降、ティアルナさんとの親密な関係性を持とうとして接触を試みているがニートであるため外出する機会が少なく、脳の病気である<a href="https://duckduckgo.com/?q=%E8%87%AA%E9%96%89%E7%97%87%E3%80%80%E7%89%B9%E5%BE%B4&t=h_&ia=web">自閉症</a>を持ち合わせているため相手の気持ちを理解できずティアルナさんの嫌がる晒し動画を公開しティアルナさんを<strong>遠ざけている。</strong><br>
+    ティアルナさんがGaryの命令を無視した際には<strong>『S校に通報するぞ』と数年間に渡り毎日脅迫</strong>をしていた。<br>
+    Garyはware255さんが運営するDiscordServerにて、ware255さんに対し誹謗中傷や脅迫等の嫌がらせ行為を行っていた。<br>
+    Garyを晒した人物に対して、Garyは<strong>『開示請求をする』と圧力</strong>をかけるが、今まで一度もGaryが<strong>警察や弁護士などの法的機関に相談及び被害届の提出や晒した人物に対して、開示請求をしたことはない。</strong><br>
+    Garyは、ティアルナさんに関連する晒しやプライバシー侵害動画の犯人をware255さんに擦り付けており、それが原因でware255さんが被害に遭っていた。<br>
+    Garyは匿名化に強い自信を持っており、Gary自身が晒した動画を<strong>『晒されてるの見つけた！開示請求したほうが良いんじゃない？』</strong>と自作自演を行っている。<br>
+    ティアルナさんは過去にware255さんから2万4000円の詐欺を行った事があるが、その後ティアルナさんは謝罪と共に2万5000円分のアマゾンギフトカードをware255さんに一度は渡したものの、Garyがware255さんからティアルナさんの返済金2万5000円のAmazonギフトカードを騙し取り、ware255さんに対して<strong>『このギフトカード使えないぞ』</strong>と虚言を吐き、敵対工作を行っていた。<br>
+    その後、Garyがware255さんから騙し取った2万5000円のAmazonギフトカードを使用し、何を購入したかは不明である。<br>
+    Garyは愛媛県のとある人物に対して何度も嫌がらせの学校通報を行っていた。<br>
+    Garyはティアルナさんになりすまして、ware255さんに対し攻撃を行っていた。<br>
+    Garyはアトマエさんになりすまし、<a href="https://www.nicovideo.jp/watch/sm42507560">ティアルナさんの捏造写真をニコニコ動画に投稿</a>していた。<br>
+    Garyはティアルナさんの<strong>顔写真を印刷した紙に対して、<a href="https://d453k4wq7kjf2j.archive.md/AdqEw/eded65c08b7dc456e972292767d0a2285bb74786.gif">脱糞・射精・火で燃やすという極めて悪質な動画</a>を撮影し、拡散していた過去</strong>がある。<br>
+    Garyは、過去にティアルナさんに対して<strong>『校門前で待機し、追いかけて覚醒剤を打ち込んで奴隷にする』などと脅迫していた。</strong><br>
+    Garyは数年に渡って、ティアルナさんという人物に対しネットストーカー行為を行っており、<strong>Garyは2023年~2024年頃の<a href="https://www.suisho.ed.jp/">倉敷翠松高等学校</a>に対して行われた<a href="https://music-square.jp/membo/id-447439/">爆破予告</a>やティアルナさんに対する<a href="https://music-square.jp/membo/id-447439/">殺害予告</a>の真犯人</strong>でもある。<br>
+    余談だが、Garyは<a href="https://onsei1919.github.io/jihaku/">ティアルナさんを煽る動画を投稿している事</a>について既に認めている。<br>
+    <br>
+    Garyは海外のアダルトサイトにティアルナさんと思われる音声を『ティアルナの名言』と称し、晒している。<br>
+    Garyはティアルナさんの悪行を捏造したり、<strong>ティアルナさんとware255さん、ティアルナさんとカニそばさん、ティアルナさんと奈良モグラさんを敵対させようと工作</strong>をしていた。<br>
+    <br>
+    Garyは<strong>引退したティアルナさんを炙り出すために、ニコニコ動画や海外のアダルトサイトを利用し、ティアルナさんの人権を侵害するコンテンツを晒して回っている。</strong><br>
+    GaryはClowさんの事を友達だと思っているが、実際にはClowさんから嫌われており、Discordでのアイステ界隈では『コドオジ』と揶揄されていた。<br>
+    2025年現在Garyは適当なハンドルネームを利用し、ティアルナさんや奈良モグラさんの音MADを作成し、ニコニコ動画に投稿している。<br>
+    Garyはware255さんや奈良モグラさんを利用して、ティアルナさんを炙り出そうと試行錯誤をしている。<br>
+    Garyはティアルナさんになりすまして、ティアルナさんを炙り出そうとしている。<br>
+    ティアルナさんや奈良モグラさんに対する嫌がらせ目的の音MADや晒し動画がヒットするが、こちらは全てGaryという人物が投稿したものである。<br>
+    Garyが原因でティアルナさんは引退したが、Garyはソレに気付かずティアルナさんを攻撃し、炙り出そうと行動している。<br>
+    <br><br>
+    <span style="font-size:28px;" id="government">基礎データ</span><br>
+    <div style="background-color: rgb(158, 158, 158); width:60%; height:1px;"></div><br>
+    <strong style="font-size:18px;">渾名</strong><br>
+    <br>
+    <li>ゲイリー 下痢 うんこの擬人化 ゲイ キチガイ</li>
+    <li>糖質 病気持ち ホンモノ 異常者 G</li>
+    <li>化物 セクハラおじさん 障害 犯罪者 黒ゴキブリ</li>
+    <li>発達障害 知的障害 無垢の巨人 ホモ 淫夢厨</li>
+    <li>アスペ 精神病患者 腐った刺身 負け犬</li>
+    <li>敗北者 アイステで一番嫌われてる害悪</li>
+    <li>全ての発言にブーメランが刺さってる男</li>
+    <li>アイステ界最臭の男 体臭でPKをする男</li>
+    <li>体臭でゾンビを倒した男 子供部屋おじさん</li>
+    <li>体臭で部屋のプレイヤー全員を退室させた男</li>
+    <li>劣等種 モノホン クソザル M字ハゲ 猿</li>
+    <li>誰からも好かれてない哀れな人 短小包茎</li>
+    <li>ワザップ張り付きおじさん ドリルちんぽASD</li>
+    <li>ニコニコ張り付きおじさん こどおじニート</li><br>
+
+    <strong style="font-size:18px;">情報</strong><br>
+   <br>
+   <li>名前               阿部隆太（あべ りゅうた）</li>
+   <li>年齢               20歳超え</li>
+   <li>生年               2005年</li>
+   <li>身長               170未満</li>
+   <li>手帳               精神障害者保健福祉手帳【青】</li>
+   <li>最終学歴            高卒 (大阪の底辺通信制高校)</li>
+   <li>職業               ニート 無職</li>
+   <li>特技               匿名化 誹謗中傷 自慰行為 音MAD作成</li>
+   <li>居場所             アイスステーションz界隈 ニコニコ動画 音MAD界隈 Discord 海外のアダルトサイト Wazap!</li>
+
+   <br> <!---->
+
+   <strong style="font-size: 18px;">所在地</strong><br>
+   <br>
+   <li>住み　新潟県魚沼市</li>
+   <li>根拠　一部<strong><a href="https://d0kv5pb7z9y7aa.archive.md/CPH4t/cd52fbd1976992c428ef90473c5463ce635ca203.png">流出した画像</a>にて、<a href="https://archive.md/8C02Z">新潟新聞</a></strong>であることが確定したため。</li>
+   <li>補足　実家暮らしで、母親に対し<strong>『俺に逆らうなら虐待の過去を警察に通報する』</strong>と脅して生活している。</li>
+   <br>
+
+   <strong style="font-size: 18px;">犯罪歴</strong><br>
+   <br>
+   <li>詐欺罪</li>
+   <li>侮辱罪</li>
+   <li>性犯罪</li>
+   <li>信用毀損</li>
+   <li>人権侵害</li> 
+   <li>名誉毀損罪</li>
+   <li>業務妨害罪</li>
+   <li>私文書偽造罪</li>
+   <li>住居不法侵入</li>
+   <li>威力業務妨害</li>
+   <li>肖像権の侵害</li>
+   <li>著作権違法・違反</li>
+   <li>覚せい剤取締法違反</li>
+   <li>プライバシーの侵害</li>
+   <li>パブリシティ権の侵害</li>
+   <br>
+
+
+    <strong style="font-size: 18px;">弱点</strong><br>
+    <br>
+    <li>喧嘩で敗北をする事</li>
+    <li>障害煽りをされる事</li>
+    <li>誹謗中傷をされる事</li>
+    <li>名誉毀損をされる事</li>
+    <li>開示請求をされる事</li>
+    <li>被害届を提出される事</li>
+    <li>顔写真を拡散される事</li>
+    <li>個人情報が拡散される事</li>
+    <li>顔面をブスと言われる事</li>
+    <li>身体的特徴を馬鹿にされる事</li>
+    <li>コンプレックスをいじられる事</li>
+    <li>隠しておきたい事実を公に晒される事</li>
+    <li><a href="https://hurouhushi.awaisora.com/a34567f2-6235-42c5-930f-47804477ef4c/#toc2">Garyによるアイスステーションz民に対する嫌がらせ行為がGaryの弱点</a></li>
+    <br>
+
+    <strong style="font-size: 18px;">身体的特徴</strong><br>
+    <br>
+    <li>ブス</li>
+    <li>デブ</li>
+    <li>無能</li>
+    <li>短小</li>
+    <li>歯垢</li>
+    <li>歯石</li>
+    <li>舌苔</li>
+    <li>童貞</li>
+    <li>陰キャ</li>
+    <li>妄想癖</li>
+    <li>ブサボ</li>
+    <li>キモボ</li>
+    <li>ワキガ</li>
+    <li>低身長</li>
+    <li>でべそ</li>
+    <li>歯周病</li>
+    <li>自閉症</li>
+    <li>不登校</li>
+    <li>チー牛</li>
+    <li>M字ハゲ</li>
+    <li>チーター</li>
+    <li>メンヘラ</li>
+    <li>ヤンデレ</li>
+    <li>キチガイ</li>
+    <li>正義ヅラ</li>
+    <li>仮性包茎</li>
+    <li>思考障害</li>
+    <li>幻覚障害</li>
+    <li>幻聴障害</li>
+    <li>知的障害</li>
+    <li>ガイジ顔</li>
+    <li>同性愛者</li>
+    <li>発達障害</li>
+    <li>薬物依存症</li>
+    <li>判断力障害</li>
+    <li>統合失調症</li>
+    <li>双極性障害</li>
+    <li>唇が大きい</li>
+    <li>鼻が大きい</li>
+    <li>サイコパス</li>
+    <li>ソシオパス</li>
+    <li>ゴキブリ顔</li>
+    <li>社交不安障害</li>
+    <li>気持ち悪い顔</li>
+    <li>ストーカー気質</li>
+    <li>全般性不安障害</li>
+    <li>プライドが高い</li>
+    <li>アナル開発済み</li>
+    <li>体臭と口臭が臭い</li>
+    <li>性欲がとても強い</li>
+    <li>アルコール依存症</li>
+    <li>全てが重度の障害</li>
+    <li>アスペルガー症候群</li>
+    <li>脳に障害有り(病名は不明)</li>
+    <li>自閉スペクトラム症 (ASD)</li>
+    <li>注意欠陥多動性障害 (ADHD)</li>
+    <li>反社会性パーソナリティ障害</li>
+    <li>人に危害を加える事が趣味ある。</li>
+    <li>自身が正義だと勘違いをしている。</li>
+    <li>自身をイケメンだと勘違いをしている。</li>
+    <li>自分の思い通りにならないと攻撃を行う。</li>
+    <li>正義ヅラした加害者である事に気づいていない。</li>
+    <li>正義ヅラした犯罪者である事に気づいていない。</li>
+    <li>友達がいない(友達に対して嫌がらせをするため)</li>
+   
+    <br><br>
+    <span style="font-size:28px;" id="economy">趣味一覧表</span><br>
+    <div style="background-color: rgb(158, 158, 158); width:60%; height:1px;"></div><br>
+
+ <li>飲酒</li>
+ <li>発狂</li>
+ <li>奇声</li>
+ <li>粘着</li>
+ <li>執着</li>
+ <li>脅迫</li>
+ <li>捏造</li>
+ <li>虚言</li>
+ <li>侮辱</li>
+ <li>洗脳</li>
+ <li>圧力</li>
+ <li>osu!</li> 
+ <li>VPN</li>
+ <li>XNXX</li>
+ <li>APEX</li>
+ <li>床オナ</li>
+ <li>壁オナ</li>
+ <li>掲示板</li>
+ <li>匿名化</li>
+ <li>Discord</li>
+ <li>被害妄想</li>
+ <li>自画自賛</li>
+ <li>誹謗中傷</li>
+ <li>晒し行為</li>
+ <li>名誉毀損</li>
+ <li>爆破予告</li>
+ <li>殺害予告</li>
+ <li>学校通報</li>
+ <li>職場通報</li>
+ <li>障害煽り</li>
+ <li>炙り出し</li>
+ <li>敵対工作</li>
+ <li>肛門拡張</li>
+ <li>ブス煽り</li>
+ <li>セクハラ</li>
+ <li>スカトロ</li>
+ <li>オナニー</li>
+ <li>アナニー</li>
+ <li>チクニー</li>
+ <li>嫌がらせ</li>
+ <li>Fortnite</li>
+ <li>mejav.cc</li>
+ <li>Bokep20</li>
+ <li>Minecraft</li>
+ <li>rexxx.com</li>
+ <li>VALORANT</li>
+ <li>障害者差別</li>
+ <li>アナル開発</li>
+ <li>開示請求脅し</li>
+ <li>ニコニコ動画</li>
+ <li>公開オナニー</li>
+ <li>公開アナニー</li>
+ <li>不安を煽る事</li>
+ <li>DAMDUC.ORG</li>
+ <li>ストーカー行為</li>
+ <li>仲間を裏切る事</li>
+ <li>バトルマイナーz</li>
+ <li>ネットストーカー</li>
+ <li>ゲイビデオの視聴</li>
+ <li>ヒューマンバグ大学</li>
+ <li>男子の"穴"を探す事</li>
+ <li>アイスステーションz</li>
+ <li>とびだせどうぶつの森</li>
+ <li>海外のアダルトサイト</li>
+ <li>障害者を馬鹿にする事</li>
+ <li>無言の圧力をかける事</li>
+ <li>友達に圧力をかける事</li>
+ <li>暇潰しに人を虐める事</li>
+ <li>私に天使が舞い降りた!</li>
+ <li>友達でオナニーをする事</li>
+ <li>ゲームでチートを使う事</li>
+ <li>Rexxx Porn Search Engine</li>
+ <li>正義ヅラして弱者虐めをする事</li>
+ <li>ティアルナさんに執着をする事</li>
+ <li>自身の悪行を他者に擦り付ける事</li>
+ <li>晒しを目的とした悪質な音MADの作成</li>
+ <li>相手が自殺するまで執拗に執着する事</li>
+ <li>他者に嫌がらせを行い反応を楽しむ事</li>
+ <li>自身のコンプレックスで他者を煽る事</li>
+ <li>ニコニコ動画でティアルナさんに粘着する事</li>
+ <li>アイスステーション害悪プレイヤー晒しtxt作成</li>
+ <li>スカトロ動画を他者に見せつけ嫌がらせをする事</li>
+ <li>引退したティアルナさんを炙り出すために試行錯誤する事</li>
+ <li>海外のアダルトサイトにティアルナさんの音声を投稿する事</li> 
+ <li>ティアルナさんを炙り出すために動画サイトにティアルナさんを晒す事</li>
+ <li>ティアルナさんに嫌がらせを行い、ティアルナさんの反応を見て遊ぶ事</li>
+
+    <br><br>
+    <span style="font-size:28px;" id="transportation">被害者一覧表</span><br>
+    <div style="background-color: rgb(158, 158, 158); width:60%; height:1px;"></div><br>
+ 
+ <li>あ</li>
+ <li>あおい(ちゃあはん)</li>
+ <li>こーりん</li>
+ <li>カヌレ</li>
+ <li>rick</li>
+ <li>ゆず</li>
+ <li>水素</li>
+ <li>チーターサーモン</li>
+ <li>eiichi</li>
+ <li>blank</li>
+ <li>シャド君</li>
+ <li>ジュアン</li>
+ <li>アンニャモ</li>
+ <li>ちむ</li>
+ <li>シい</li>
+ <li>Clow</li>
+ <li>キシマ</li>
+ <li>ユーマ</li>
+ <li>ハク(いちのせ)</li>
+ <li>いづな♪|-・)チラァ</li> 
+ <li>キメラ</li>
+ <li>常闇眷属</li>
+ <li>ぉねむくん</li>
+ <li>りょうが</li>
+ <li>コンソメ</li>
+ <li>memory</li>
+ <li>山田</li>
+ <li>め!(わかた)</li>
+ <li>IZN</li>
+ <li>MIRU</li>
+ <li>アトマエ</li>
+ <li>ware255</li>
+ <li>カニそば</li>
+ <li>ティアルナ</li>
+ <li>奈良モグラ</li>
+ <li>ポケしこチャレンジ</li>　
+ <li>Garyによってアイスステーションz害悪プレイヤーtxtに晒されていた方々</li>
+    　　
+    <br><br>
+    <span style="font-size:28px;" id="sightseeing">考察</span><br>
+    <div style="background-color: rgb(158, 158, 158); width:60%; height:1px;"></div><br>
+    <br> <!---->
+    <strong style="font-size:18px;">Garyの行動理念</strong><br>
+    <li>Garyが持つ<a href="https://duckduckgo.com/?q=%E8%87%AA%E9%96%89%E7%97%87%E3%80%80%E7%89%B9%E5%BE%B4&t=h_&ia=web">自閉症</a>が原因で特定の人物や行動に対してこだわりが<strong>強い傾向</strong>にあるため、<strong>執着心</strong>があると思われる。</li>
+    <li>Garyは<a href="https://duckduckgo.com/?t=h_&q=反社会性パーソナリティ障害&ia=web">反社会性パーソナリティ障害</a>を患っているため、<strong>常に誰かを虐めていないと我慢できない</strong>のである。実際には様々な方々がGaryによる被害を受けている。</li>
+    <br> <!---->
+    <strong style="font-size:18px;">何故Garyは他者を煽ってしまうのか</strong><br>
+    <li>Garyは他者を煽る際には、身体的特徴や障害者煽りなどを行っている。</li>
+    <li>これはGary自身のコンプレックスを<strong><a href="https://www.weblio.jp/content/自己投影">自己投影</a></strong>しており、Garyの煽り発言は全てGaryの頭部にブーメランが刺さっている。</li>
+    <li>実際にGaryが作成した名誉毀損目的の極めて悪質な晒しサイトに書かれている内容の全てがGary自身のコンプレックスに当てはまっているのである。</li>
+    <li>結論としては、Garyの悪口にはGary<a href="https://ano-harayama.com/emag/01241058-2/">自身のコンプレックス</a>が隠されている。</li>
+    <br> <!---->
+    <strong style="font-size:18px;">何故Garyは被害届の提出・開示請求をしないのか</strong><br>
+    <li>警察に被害届を提出できない理由はGary自身、犯罪行為が明るみになることを恐れているため。</li>
+    <li><strong>開示請求ができない理由</strong>は実家が貧乏で、弁護士を雇う資金がないため。<strong>自身の犯罪歴が明るみになる事</strong>を恐れているため。</li>
+    <li>Gary自身が行ってきた嫌がらせや晒し行為、攻撃などで<strong>様々な人</strong>に恨まれているため被害届の提出や開示請求をした場合法的措置にて情報が漏れ、Garyを恨んでいる方々によって拡散される事を恐れているため。</li>
+    <li>余談だが、Garyは無能であり論理的思考力が低いために口論になった際には<strong>猿のように怒り狂い誹謗中傷</strong>を行う。</li>
+    <li>それでも通用しない時は<strong>『開示請求』</strong>という言葉で相手を脅迫する。</li>
+    <li>だが、開示請求を実行したことは無い。前述の通りGaryは無能であるために<strong>直ぐにバレる安直な虚言</strong>を吐く。</li>
+    <li>Garyは、<strong>相手を完膚なきまでに叩きのめしたいという意志</strong>はあるが、<strong>意志に能力が追いつかないために毎度醜態を晒す羽目</strong>になっている。</li>
+    <br> <!---->
+    <strong style="font-size:18px;">Garyがティアルナさんに対して執着する理由</strong><br>
+    <li>脳の病気である<strong><a href="https://duckduckgo.com/?q=%E8%87%AA%E9%96%89%E7%97%87%E3%80%80%E7%89%B9%E5%BE%B4&t=h_&ia=web">自閉症</a></strong>が原因で<strong>ティアルナさんに対してのこだわり</strong>が強いため。</li>
+    <li>Garyがティアルナさんに執着する理由は<strong>Gary自身表向きにはティアルナさんを嫌っているフリ</strong>をしているが、内心は<strong>ティアルナさんに対し好意があり性的興奮や<a href="https://d453k4wq7kjf2j.archive.md/AdqEw/eded65c08b7dc456e972292767d0a2285bb74786.gif">ティアルナさんで自慰行為</a>を行っている事</strong>が非常に多い。</li>
+    <li>また、<strong>ティアルナさんはGaryの言いなりで奴隷</strong>であったため<strong>都合の良い『おもちゃ』</strong>が手元になく、必死に探しているようである。</li>
+    <li>これは確実な根拠や証拠等が有り、ティアルナさんは2023年頃に引退しネットから消えているが<strong>2025年でもGaryはティアルナさんに執拗に執着</strong>しているからである。</li>
+    <br> <!---->
+    <strong style="font-size:18px;">Garyによる敵対工作について</strong><br>
+    <li>2025年現在Garyはティアルナさんと奈良モグラさんを敵対させようとDiscordやニコニコ動画などのサイトを通して敵対工作を行っている。</li>
+    <li>具体的には、ティアルナさんになりすましたGaryが、奈良モグラさんに対して攻撃を行っていたり、『地元民とティアルナが結託し、奈良モグラの両親に攻撃する』と捏造し、投稿している。</li>
+    <li>実際に、奈良モグラさんは引退しているティアルナさんの話題をネタにしYouTube活動を続けており、あたかもティアルナさんが生きているかのように振る舞っているからである。</li>
+    <li>余談だが、Garyは様々な<strong>アイステ民や底辺配信者を組み合わせて、喧嘩を勃発させようと画策</strong>している。</li>
+    <br> <!---->
+    <strong style="font-size:18px;">住宅・高校に関して</strong><br>
+    <li>Garyは過去に、<strong>新潟県魚沼市に住んでいる</strong>と自供していた。</li>
+    <li>Garyが<a href="https://d453k4wq7kjf2j.archive.md/AdqEw/eded65c08b7dc456e972292767d0a2285bb74786.gif">ティアルナさんで自慰行為</a>を行う際に<strong><a href="https://d0kv5pb7z9y7aa.archive.md/CPH4t/cd52fbd1976992c428ef90473c5463ce635ca203.png">画面に写った新聞の一部</a>が新潟県魚沼市新聞</strong>と断定されたため。</li>
+    <li>Garyは<strong>両親からも嫌われているため、祖父母にGaryを押し付けている可能性</strong>が極めて高い</li>
+    <li>過去に流出していた<strong>Garyの手動ミスによる地図が大阪</strong>であったこと。</li>
+    <li>Garyは<strong>朝から晩まで常時オンライン</strong>であるため、通信制高校は確定。</li>
+    <li>Garyは過去に、<strong>『通信制高校に通っている』や『たまに学校に登校している』</strong>と話していた。</li>
+    <li>Garyが通っていた高校についてだが、<a href="https://miraitizu.com/tsushin-school/area/osaka">大阪の通信制高校</a>であると思われる。</li>
+    <li>Garyは非常に頭が悪く、Gary自身の自供からも<strong>偏差値や民度の低い通信制高校</strong>に通っていると思われる。</li>
+    <li>大阪希望学園高等部、エミール高等学院、長尾谷高等学校などが挙げられる。</strong>
+    <li>上記の説明から、高校に通うために大阪の地図を保存していた可能性が極めて高い。</li>
+    <br> <!---->
+    <strong style="font-size:18px;">Garyの現在に関して</strong><br>
+    <li>Garyは2025年現在、実家で<strong>ニート生活</strong>を送っている。</li>
+    <li>重度の自閉症とコミュニケーション経験の希薄さから、彼が社会復帰する事はもはや不可能である。</li>
+    <li>Garyは重度の自閉症を持っており、国から支援を受けているが、社会に対してマイナスの行動しかしないため存在意義は皆無であろう。</li>
+    <li>Garyは生きる価値がない人間であり、家族やネットユーザーからも自殺を望まれている哀れな人間であるが、実際に脳に先天的な病気があり遺伝子的にも劣っているため仕方がないと思われる。 </li>
+    <br> <!---->
+    <strong style="font-size:18px;">Garyの将来に関して</strong><br>
+    <li>Garyは両親から嫌われており、Garyの存在を祖父母に押し付けていると思われる。</li>
+    <li>仮の話だが祖父母が亡くなった後、両親はGaryが存在することに対するストレスで精神に異常をきたす可能性が非常に高いため、<strong>何かしらの事件に発展する</strong>と思われる。</li>
+    <li>あるいは、祖父母が亡くなったタイミングにて何かしらの施設に送られるか、絶縁され社会的な孤立をすると思われる。</li>
+    <br> <!---->
+    <span style="font-size:28px;" id="footnote">脚注</span><br>
+    <div style="background-color: rgb(158, 158, 158); width:60%; height:1px;"></div><br>
+     <strong style="font-size:18px;">りょうが</strong><br>
+    顔はイケメンで頭も性格も良く、数年間に渡ってGaryに執着されてる被害者である。<br>
+    現在はアイスステーションzではその名を知らない人は居ないほどの上位ランカーとして君臨している。<br>
+    過去にティアルナさんをGaryから救おうとしていた事がある。<br>
+    りょうがさんがGaryに『不登校』と煽られている理由としては、りょうがさんがGaryに対し『日中オンラインなのは不登校なのでは？』と指摘したところGaryは怒りを露にしりょうがさんに対し『不登校』と煽り返すようになったのである。<br>
+    コンソメさんに対してGaryが『ワキガ』と煽っているのも同じ理由である。<br>
+    <br><br>
+    <strong style="font-size:18px;">ティアルナ</strong><br>    
+    元アイスステーションz民であり、既に引退しており行方不明、晒し記事や晒し動画が一切削除されないため生存不明である。<br>
+    また、Garyによるなりすましが幾度となく行われているためティアルナさんの偽物には注意すべきである。<br>
+    Garyはティアルナさんになりすます事によって、なりすまし被害回避のためにティアルナさんが戻ってくるのではないかと炙り出しをする目的である。　<br>
+    ティアルナさんは現在では更生しているようだが、過去に色々とやらかしており非常に危険な人物でもある。<br>
+    ティアルナさんはGaryによる攻撃や嫌がらせの執着が原因でGaryと絶縁状態にあり、ティアルナさんはGaryを毛嫌いしている。しかし、自閉症で人の気持ちを理解できないGaryは未だにティアルナさんを<a href="https://www.nicovideo.jp/watch/sm44839757?ref=search_tag_video&playlist=eyJ0eXBlIjoic2VhcmNoIiwiY29udGV4dCI6eyJ0YWciOiJcdTMwYTJcdTMwYTRcdTMwYjlcdTMwYjlcdTMwYzZcdTMwZmNcdTMwYjdcdTMwZTdcdTMwZjNaIiwic29ydEtleSI6InJlZ2lzdGVyZWRBdCIsInNvcnRPcmRlciI6ImRlc2MiLCJwYWdlIjoxLCJwYWdlU2l6ZSI6MzJ9fQ&ss_pos=3&ss_id=f5486547-07bc-4088-880e-4f37ce18aa53">親友であると勘違い</a>をしている。<br>
+    また、このWikipediaの説明を読んだ方ならお分かりいただけるだろうが、ティアルナさんはこれまでのGaryの被害者の中でも唯一無二であり、彼はおそらくGaryを一番恨んでいるためGaryの公開されていない住宅動画やGaryの外配信動画など、情報を求めて接触を試みたいところである。<br>
+    しかし、ティアルナさんは完全に引退している為、アイスステーションz界隈にティアルナさんが戻って来る可能性は極めて低いと思われる。仮に発見された所で上記で説明した通り、Garyによるなりすましである可能性が極めて高い。<br>
+    ティアルナさんでお馴染みのサイコパスな性格はGaryによって思想を植え付けられて暴走させられていたためティアルナさんはれっきとしたGaryによる被害者である。<br>
+    ティアルナさんが、犯罪やサイコパスをかっこいいと勘違いしていたのはGaryによる洗脳やティアルナさんを脅す目的の材料である犯罪音声を録音するために煽てた事が原因である。<br>
+    考察になるが、ティアルナさんは「<a href="https://www.nicovideo.jp/tag/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3Z">Garyの長年に渡る執着</a>」が原因で既に自殺を行い、他界している可能性が極めて高い。<br>
+    <br><br>
+    <strong style="font-size:18px;">ware255</strong><br>
+    将来有望な天才プログラマーであり、魂魄妖夢の熱狂的な支持者である。喘ぎ声を出すことが得意で、可愛らしい声と普段は大人しい性格で愛嬌がありとても優しい性格である。<br>
+    過去にGaryが行っていたティアルナさんの<a href="https://www.nicovideo.jp/tag/%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3Z">晒し動画</a>やティアルナさんの<a href="https://nitter.net/Hentai_Thiaruna">なりすましTwitter</a>などの加害者としてなすりつけられていた。<br>
+    ware255さんが使用する言語は多種多様であり、特にpython、C++言語を得意としている。<br>
+    <br><br>
+    <strong style="font-size:18px;">アイスステーションz</strong><br>
+    雪に閉ざされた島でゾンビの襲来から生き延びることを目的とした、オープンワールド型のサバイバルゲームである。<br>
+   
+
+    <br><br>
+    <span style="font-size:28px;" id="Relateditems">関連項目</span><br>
+    <div style="background-color: rgb(158, 158, 158); width:60%; height:1px;"></div><br>
+
+
+<a href="https://www.niigata-nippo.co.jp/nf/cp/2023spring/">新潟新聞</a><br>
+<br>
+<a href="https://archive.md/EolS7">Gary写真集</a><br>
+<br>
+<a href="https://garysuzumiya.github.io/kokuhatu/">Gary音声集</a><br>
+<br>
+<a href="https://ja.wikipedia.org/wiki/Ice_Station_Z">アイスステーションz</a><br>
+<br>
+<a href="https://uu.getuploader.com/nonanona/index/date/desc/1">水銀＆桃水アップローダー</a><br>
+<br>
+<div style="height: 20px;"></div>
+
+<div style="background-color: rgb(158, 158, 158); width:320%; height:1px;"></div><br>
+
+<p style="font-size: 12px;">最終更新 4545年8月10日 11:45:14</p>
+
+<p style="font-size: 9px;">このWikipediaはGaryの被害者の声を元に作成されました。</p>
+<p style="font-size: 9px;">VPNを利用した匿名化に自信のある方は、このページを拡散して下さい。</p>
+<p style="font-size: 9px;">テキストは クリエイティブ・コモンズ 表示-継承ライセンス の下で利用可能です。</p>
+<p style="font-size: 9px;">追加の条件が適用される場合があります。詳細は 利用規約を参照してください。</p>
+<div style="height: 20px;"></div>
+
+<br><br>
+</div>
+
+<footer>
+  ©  著作・製作　Gary被害者製作委員会　All Rights Reserved.
+</footer>
+
+<script>
+  function change1(){
+    document.getElementById("text1").style.color = "red";
+  }
+  function change1_1(){
+    document.getElementById("text1").style.color = "black";
+  }
+</script>
+
+ </body>　
+
+</script>
+</html>
